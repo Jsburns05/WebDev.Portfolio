@@ -75,8 +75,10 @@ HEADER AND NAV LAYOUT
 -----------------------------------------------------*/
 
 .header{
+    background: var(--clr-background-primary);
+    position: fixed;
     color: var(--clr-primary);
-    border: 1px solid var(--clr-accent);
+    border-bottom: 5px solid var(--clr-accent);
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     width: 100%;
@@ -92,10 +94,7 @@ HEADER AND NAV LAYOUT
 /*
 HEADER AND NAV STYLING
 -----------------------------------------------------*/
-.header {
-    background: var(--clr-background-primary);
-    position: fixed;
-}
+
 
 .nav-logo {
     color: var(--clr-accent);
@@ -219,7 +218,7 @@ MAIN SECTION LAYOUT
 .main-container {
     display: flex;
     flex-direction: column;
-    padding: 0 5rem;
+    padding: 0 5rem 5rem 5rem;
 }
 
 .main-item {
@@ -229,7 +228,7 @@ MAIN SECTION LAYOUT
     border-radius: 2px;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: .2em;
+    margin: .1em;
     cursor: pointer;
     height: 22rem;
     transition: all .4s ease-in-out;
@@ -238,14 +237,13 @@ MAIN SECTION LAYOUT
 .main-item:hover {
     background: var(--clr-accent);
     transition: all .4s ease-in-out;
-    border: 5px solid var(--clr-primary);
+    outline: 2px solid var(--clr-primary);
+    outline-offset: 5px;
     transform: scale(1.05);
 }
 
 
 /*-----------------------------------------------------
-
-
 
 
 
