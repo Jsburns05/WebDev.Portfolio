@@ -71,55 +71,125 @@ GRID SETUP
 
 
 
-HEADER AND NAV LAYOUT
------------------------------------------------------*/
-
-.header{
-    background: var(--clr-background-primary);
-    position: fixed;
-    color: var(--clr-primary);
-    border-bottom: 5px solid var(--clr-accent);
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    width: 100%;
-    height: 5rem;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 /*
 HEADER AND NAV STYLING
 -----------------------------------------------------*/
 
+header {
+    height: 100px;
+}
 
 .nav-logo {
     color: var(--clr-accent);
     font-family: var(--ff-special);
-    font-size: 2rem;
-    margin: 1.2rem 0 1rem 1rem;
+    font-size: 3rem;
+    margin: 0;
 
 }
 
-.nav-link {
-    color: var(--clr-primary);
-    cursor: pointer;
-    font-weight: 200;
-    font-size: 1rem;
-    padding: 0 .75rem;
+nav {
+    text-align: center;
+    background: var(--clr-background-primary);
+    position: relative;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+
 }
 
-.nav-link:hover {
+nav ul {
+    padding: 2rem 0 2rem 0;
+    margin: 0;
+}
+
+nav a {
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+input {
+    display: none;
+}
+
+nav li {
+    padding: 2rem 0 2rem 0;
+}
+
+nav li:hover {
     color: var(--clr-accent);
 }
 
-.nav-menu {
+.nav-toggle-label {
+    position: fixed;
+    z-index: 20;
     display: flex;
-    padding-right: 1rem;
+    justify-content: center;
+    background: var(--clr-background-secondary);
+    height: 3rem;
+    width: 100%;
+    transform: translateY(-21.2rem);
+    transition: all .4s ease-in-out;
 }
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: var(--clr-accent);
+    height: 5px;
+    width: 1em;
+    border-radius: 1px;
+    position: relative;
+    bottom: -1.2rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    content: "";
+    bottom: 6px;
+}
+
+.nav-toggle-label span::after {
+    content: "";
+    top: 6px;
+}
+
+/*---------------------------------------------
+
+
+
+---------after hamburger is clicked(mobile)--*/
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity .4s ease-in-out ;
+  }
+
+.nav-toggle:checked ~ .nav-toggle-label span{
+    transform: rotate(90deg);
+}
+  
+.nav-toggle:checked ~ .nav-toggle-label {
+    transform: translateY(-1rem);
+    transition: all .4s ease-in-out;
+  }
 
 /*-----------------------------------------------------
 
@@ -134,7 +204,7 @@ ABOUT FEATURE SECTION START
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
 }
 
