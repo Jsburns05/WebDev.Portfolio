@@ -77,6 +77,9 @@ HEADER AND NAV STYLING
 
 header {
     height: 100px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 .nav-logo {
@@ -142,7 +145,7 @@ nav li:hover {
 .nav-toggle-label span::after {
     display: block;
     background: var(--clr-accent);
-    height: 5px;
+    height: 2px;
     width: 1em;
     border-radius: 1px;
     position: relative;
@@ -299,9 +302,9 @@ MAIN SECTION LAYOUT
     border-radius: 2px;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: .1em;
+    margin: 1em;
     cursor: pointer;
-    height: 22rem;
+    height: 20rem;
     transition: all .4s ease-in-out;
 }
 
