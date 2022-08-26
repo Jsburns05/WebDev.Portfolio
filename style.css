@@ -127,6 +127,8 @@ nav li {
 
 nav li:hover {
     color: var(--clr-accent);
+    outline: 2px solid var(--clr-primary);
+    outline-offset: -15px;
 }
 
 .nav-toggle-label {
@@ -329,7 +331,7 @@ MAIN SECTION LAYOUT
     transition: all .4s ease-in-out;
     outline: 2px solid var(--clr-primary);
     outline-offset: 5px;
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 
