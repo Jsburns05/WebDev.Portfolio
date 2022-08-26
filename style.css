@@ -108,8 +108,8 @@ HEADER AND NAV STYLING
     color: var(--clr-primary);
     cursor: pointer;
     font-weight: 200;
-    font-size: 1.3rem;
-    padding: 0 2rem;
+    font-size: 1rem;
+    padding: 0 .75rem;
 }
 
 .nav-link:hover {
