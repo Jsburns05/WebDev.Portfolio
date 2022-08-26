@@ -238,7 +238,7 @@ nav li:hover {
     top: -4rem;
     z-index: -1;
     outline: 2px solid var(--clr-primary);
-    outline-offset: -10px;
+    outline-offset: -7px;
 }
 
 .about-box-title {
