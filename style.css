@@ -220,6 +220,7 @@ nav li:hover {
 }
 
 .about-feature img {
+    background: var(--clr-background-primary);
     width: 35%;
     border: 2px solid var(--clr-primary);
     border-radius: 5px;
@@ -234,7 +235,7 @@ nav li:hover {
     background: var(--clr-accent);
     border-radius: 1px;
     position: relative;
-    top: -2.5rem;
+    top: -4rem;
     z-index: -1;
     outline: 2px solid var(--clr-primary);
     outline-offset: -10px;
@@ -247,7 +248,7 @@ nav li:hover {
 .about-box h1 {
     font-family: var(--ff-special);
     font-size: 7vw;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     color: var(--clr-background-primary);
     letter-spacing: .05rem;
     font-weight: 200;
