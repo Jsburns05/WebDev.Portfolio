@@ -236,6 +236,8 @@ nav li:hover {
     position: relative;
     top: -2.5rem;
     z-index: -1;
+    outline: 2px solid var(--clr-primary);
+    outline-offset: -10px;
 }
 
 .about-box-title {
@@ -317,6 +319,8 @@ MAIN SECTION LAYOUT
     width: auto;
     height: 15rem;
     transition: all .4s ease-in-out;
+    outline: 2px solid var(--clr-primary);
+    outline-offset: -10px;
 }
 
 .main-item:hover {
