@@ -272,7 +272,7 @@ MAIN SECTION LAYOUT
     position: relative;
     top: -1rem;
     z-index: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: var(--ff-special);
     color: var(--clr-accent);
     margin: 0;
@@ -282,7 +282,7 @@ MAIN SECTION LAYOUT
 .card-text-secondary {
     position: relative;
     top: -1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--ff-special);
     color: var(--clr-background-secondary);
     margin: 0;
@@ -302,7 +302,7 @@ MAIN SECTION LAYOUT
     border-radius: 2px;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: 1em;
+    margin: 1rem;
     cursor: pointer;
     height: 20rem;
     transition: all .4s ease-in-out;
