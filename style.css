@@ -86,7 +86,7 @@ header {
     color: var(--clr-accent);
     font-family: var(--ff-special);
     font-size: 3rem;
-    margin: 0;
+    margin-top: 5rem;
 
 }
 
