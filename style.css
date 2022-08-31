@@ -87,7 +87,7 @@ header {
     color: var(--clr-accent);
     font-family: var(--ff-special);
     font-size: 1.8em;
-    margin-top: 5rem;
+    margin-top: 7rem;
 
 }
 
@@ -122,13 +122,12 @@ input {
 }
 
 nav li {
-    padding: 2rem 0 2rem 0;
+    padding: 1.5rem 0 1.5rem 0;
 }
 
 nav li:hover {
-    color: var(--clr-accent);
-    outline: 2px solid var(--clr-primary);
-    outline-offset: -15px;
+    background: var(--clr-background-secondary);
+    transition: all .3s ease-in-out;
 }
 
 .nav-toggle-label {
@@ -201,13 +200,31 @@ nav li:hover {
 
 
 
-
-
 /*NAV BREAKPOINT STYLING
 -----------------------------------------------------*/
 
 
+@media screen and (min-width:768px) {
 
+    nav {
+        transform: scale(1,1);
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+    }
+
+    nav a {
+        opacity: 1
+        ;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
 
 
 /*ABOUT FEATURE SECTION START
