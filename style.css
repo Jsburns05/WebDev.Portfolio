@@ -24,20 +24,13 @@ GENERAL SETTINGS
     --clr-background-secondary: rgb(55, 55, 55);
     --clr-primary: rgb(255, 255, 255);
     --clr-accent: rgb(72, 126, 174);
-    width: 100vw;
 }
 
-html {
-    height: 100vh;
-    width: 100%;
-}
 
 body {
     background-color: var(--clr-background-primary);
     font-family: var(--ff-primary);
     font-size: 1.5rem;
-    height: 100vh;
-    width: 100vw;
     letter-spacing: .1em;
     text-align: center;
 }
@@ -62,8 +55,6 @@ GRID SETUP
 .grid-container {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
 }
 
 /*-----------------------------------------------------
@@ -128,7 +119,7 @@ nav li {
 
 nav li:hover {
     background: var(--clr-background-secondary);
-    transition: all .3s ease-in-out;
+    transition: all .35s ease-in-out;
 }
 
 .nav-toggle-label {
@@ -137,7 +128,7 @@ nav li:hover {
     display: flex;
     justify-content: center;
     background: var(--clr-background-secondary);
-    height: 3rem;
+    height: 5rem;
     width: 100%;
     transform: translateY(-20.2rem);
     transition: all .5s ease-in-out;
@@ -147,12 +138,12 @@ nav li:hover {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: var(--clr-accent);
-    height: 2px;
-    width: 1em;
+    background: var(--clr-primary);
+    height: 2.5px;
+    width: 1.5em;
     border-radius: 1px;
     position: relative;
-    bottom: -1.2rem;
+    bottom: -2.5rem;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
@@ -194,11 +185,7 @@ nav li:hover {
   
 .nav-toggle:checked ~ .nav-toggle-label {
     transform: translateY(-1rem);
-    transition: all .5s ease-in-out;
   }
-
-/*-----------------------------------------------------
-
 
 
 /*NAV BREAKPOINT STYLING
@@ -230,9 +217,13 @@ nav li:hover {
         display: none;
     }
 }
+/*-----------------------------------------------------
 
 
-/*ABOUT FEATURE SECTION START
+
+
+
+ABOUT FEATURE SECTION START
 -----------------------------------------------------*/
 
 .about-feature {
@@ -240,12 +231,12 @@ nav li:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
-    width: 100vw;
+    width: 100%;
 }
 
 .about-feature img {
     background: var(--clr-background-primary);
-    width: 35%;
+    width: 150px;
     border: 2px solid var(--clr-primary);
     border-radius: 5px;
 }
@@ -254,7 +245,7 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 70%;
+    width: 15rem;
     height: 11em;
     background: var(--clr-accent);
     border-radius: 1px;
@@ -271,7 +262,7 @@ nav li:hover {
 
 .about-box h1 {
     font-family: var(--ff-special);
-    font-size: 7vw;
+    font-size: 1.2rem;
     padding-top: 2rem;
     color: var(--clr-background-primary);
     letter-spacing: .05rem;
@@ -280,10 +271,16 @@ nav li:hover {
 
 .about-box h2 {
     margin: 0;
-    font-size: 5vw;
+    font-size: 1rem;
     color: var(--clr-primary);
     font-weight: 100;
 }
+
+/*NAV BREAKPOINT STYLING
+-----------------------------------------------------*/
+
+
+
 
 /*-----------------------------------------------------
 
@@ -313,7 +310,6 @@ MAIN SECTION LAYOUT
     font-family: var(--ff-special);
     color: var(--clr-accent);
     margin: 0;
-    padding: 0 2rem;
 }
 
 .card-text-secondary {
@@ -329,7 +325,6 @@ MAIN SECTION LAYOUT
 .main-container {
     display: flex;
     flex-direction: column;
-    padding: 0 2rem 2rem 2rem;
 }
 
 .main-item {
