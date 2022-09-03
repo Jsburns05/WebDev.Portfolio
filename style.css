@@ -89,12 +89,12 @@ nav {
     position: relative;
     transform: scale(1, 0);
     transform-origin: top;
-    transition: transform 400ms ease-in-out;
+    transition: transform .5s ease-in-out;
 
 }
 
 nav ul {
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
     margin: 0;
 }
 
@@ -115,11 +115,13 @@ input {
 
 nav li {
     padding: 2rem 0 2rem 0;
+    
 }
 
 nav li:hover {
     background: var(--clr-background-secondary);
-    transition: all .35s ease-in-out;
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
 }
 
 .nav-toggle-label {
@@ -128,9 +130,10 @@ nav li:hover {
     display: flex;
     justify-content: center;
     background: var(--clr-background-secondary);
+    border-bottom: 2px solid var(--clr-primary);
     height: 5rem;
     width: 100%;
-    transform: translateY(-20.2rem);
+    transform: translateY(-19rem);
     transition: all .5s ease-in-out;
 }
 
@@ -209,8 +212,8 @@ nav li:hover {
     }
 
     nav a {
-        opacity: 1
-        ;
+        opacity: 1;
+        font-size: 1rem;
     }
 
     .nav-toggle-label {
@@ -262,7 +265,7 @@ ABOUT FEATURE SECTION START
 
 .about-box h1 {
     font-family: var(--ff-special);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-top: 2rem;
     color: var(--clr-background-primary);
     letter-spacing: .05rem;
@@ -271,12 +274,12 @@ ABOUT FEATURE SECTION START
 
 .about-box h2 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--clr-primary);
     font-weight: 100;
 }
 
-/*NAV BREAKPOINT STYLING
+/*ABOUT SECTION BREAKPOINT
 -----------------------------------------------------*/
 
 
@@ -292,13 +295,13 @@ MAIN SECTION LAYOUT
 -----------------------------------------------------*/
 
 .main {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .page-titles {
     font-family: var(--ff-special);
     color: var(--clr-accent);
-    font-size: 8vw;
+    font-size: 3rem;
     margin-top: 0;
 }
 
@@ -325,6 +328,7 @@ MAIN SECTION LAYOUT
 .main-container {
     display: flex;
     flex-direction: column;
+    margin: 1rem 1rem;
 }
 
 .main-item {
@@ -334,7 +338,7 @@ MAIN SECTION LAYOUT
     border-radius: 2px;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: 1rem;
+    margin: 0;
     cursor: pointer;
     width: auto;
     height: 15rem;
@@ -365,6 +369,19 @@ MAIN SECTION LAYOUT
 MAIN SECTION BREAKPOINT
 -----------------------------------------------------*/
 
+@media screen and (min-width:500px) {
+
+    .main-container {
+        margin: 5rem;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .main-container {
+        margin: 7rem;
+    }
+}
+
 @media screen and (min-width:768px) {
     .main {
         grid-column: 1 / 4;
@@ -379,6 +396,7 @@ MAIN SECTION BREAKPOINT
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 100%;
+
     }
 
 }
@@ -403,27 +421,7 @@ MAIN SECTION BREAKPOINT
 
 
 
-FOOTER SECTION LAYOUT
------------------------------------------------------*/
 
-.footer {
-    grid-column: 1 / 3;
-}
-
-@media screen and (min-width: 768px) {
-    .footer {
-        grid-column: 1 / 4;
-    }
-}
-
-/*
-FOOTER SECTION STYLING
------------------------------------------------------*/
-
-.footer {
-    color: var(--clr-primary);
-    border: 2px solid var(--clr-accent);
-}
 
 
 
