@@ -432,7 +432,7 @@ MAIN SECTION BREAKPOINT
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 5rem 7rem 1rem 0;
+        margin: 5rem 7rem 2rem 0;
     }
 
     .main-container img {
