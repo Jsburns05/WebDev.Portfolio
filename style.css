@@ -57,6 +57,23 @@ GRID SETUP
     flex-direction: column;
 }
 
+@media screen and (min-width:1024px) {
+    .grid-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-feature { 
+        flex: 1 1 7em; 
+    }
+    .main { 
+        margin: 0;
+        flex: 2 2 7em; 
+    }    
+    
+    
+}
+
 /*-----------------------------------------------------
 
 
@@ -404,8 +421,8 @@ MAIN SECTION BREAKPOINT
 @media screen and (min-width: 1024px) {
     .main-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 2rem 1rem 0;
     }
 
     .main-container img {
