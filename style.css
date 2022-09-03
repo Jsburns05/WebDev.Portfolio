@@ -428,12 +428,11 @@ MAIN SECTION BREAKPOINT
 
 }
 
-
 @media screen and (min-width: 1024px) {
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 3  rem 7rem 2rem 0;
+        margin: 3rem 7rem 2rem 0;
     }
 
     .main-container img {
@@ -442,7 +441,7 @@ MAIN SECTION BREAKPOINT
 
     }
 
-    .page-titles    {
+    .page-titles {
         margin-right: 7rem;
         margin-bottom: 0;
     }
