@@ -58,7 +58,16 @@ GRID SETUP
 }
 
 @media screen and (min-width:1024px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
     .grid-container {
+        height: 100%;
         display: flex;
         flex-direction: row;
     }
@@ -66,6 +75,7 @@ GRID SETUP
     .about-feature { 
         flex: 1 1 7em; 
     }
+
     .main { 
         margin: 0;
         flex: 2 2 7em; 
@@ -318,7 +328,7 @@ MAIN SECTION LAYOUT
 .page-titles {
     font-family: var(--ff-special);
     color: var(--clr-accent);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
 }
 
@@ -389,13 +399,13 @@ MAIN SECTION BREAKPOINT
 @media screen and (min-width:500px) {
 
     .main-container {
-        margin: 5rem;
+        margin: 2rem 5rem;
     }
 }
 
 @media screen and (min-width:700px) {
     .main-container {
-        margin: 7rem;
+        margin: 2rem 7rem;
     }
 }
 
@@ -422,13 +432,18 @@ MAIN SECTION BREAKPOINT
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 1rem 2rem 1rem 0;
+        margin: 5rem 7rem 1rem 0;
     }
 
     .main-container img {
         max-width: 100%;
         height: 250px;
 
+    }
+
+    .page-titles {
+        margin-right: 7rem;
+        margin-bottom: 0;
     }
 }
 
