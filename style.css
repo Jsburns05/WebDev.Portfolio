@@ -414,11 +414,6 @@ MAIN SECTION BREAKPOINT
         grid-column: 1 / 4;
     }
 
-    .main-container img {
-        height: 250px;
-        max-width: 100%;
-    }
-
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
