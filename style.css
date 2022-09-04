@@ -161,7 +161,7 @@ nav li:hover {
 
 .nav-toggle-label {
     position: fixed;
-    top: 17.3rem;
+    top: 17.4rem;
     z-index: 20;
     display: flex;
     justify-content: center;
@@ -222,7 +222,13 @@ nav li:hover {
   }
 
 .nav-toggle:checked ~ .nav-toggle-label span{
+    
     transform: rotate(90deg);
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    opacity: 1;
 }
   
 .nav-toggle:checked ~ .nav-toggle-label {
@@ -471,13 +477,14 @@ MAIN SECTION BREAKPOINT
 CONTACT PAGE START-----------------------------------*/
 
 .contact-main {
-    color: var(--clr-primary);
     margin: 8rem 5rem;
 }
 
 .contact-main i {
     margin: 5rem;
+    color: var(--clr-primary);
 }
+
 
 .contact-main h1:hover {
     background: var(--clr-accent);
@@ -500,6 +507,15 @@ CONTACT PAGE START-----------------------------------*/
     .contact-main {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        height: fit-content;
+        margin-top: 15rem;
+    
+    }
+
+    .contact-main a {
+        width: 100%;
+        
     }
 }
 
