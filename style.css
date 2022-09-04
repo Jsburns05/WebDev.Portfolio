@@ -161,7 +161,7 @@ nav li:hover {
 
 .nav-toggle-label {
     position: fixed;
-    top: 17.4rem;
+    top: 17.1rem;
     z-index: 20;
     display: flex;
     justify-content: center;
@@ -515,7 +515,7 @@ CONTACT PAGE START-----------------------------------*/
 
     .contact-main a {
         width: 100%;
-        
+
     }
 }
 
