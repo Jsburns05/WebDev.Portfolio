@@ -149,13 +149,15 @@ input {
 }
 
 nav li {
+    height: 100%;
+    width: 100%;
     padding: 2rem 0 2rem 0;
     
 }
 
 nav li:hover {
     background: var(--clr-accent);
-    outline: 2px solid var(--clr-primary);
+    border: 2px solid var(--clr-primary);
     transition: all .3s ease-in-out;
 }
 
@@ -166,7 +168,7 @@ nav li:hover {
     display: flex;
     justify-content: center;
     background: var(--clr-background-secondary);
-    border-bottom: 2px solid var(--clr-primary);
+    border-bottom: 5px solid var(--clr-primary);
     height: 5rem;
     width: 100%;
     transform: translateY(-17.5rem);
@@ -234,6 +236,8 @@ nav li:hover {
 .nav-toggle:checked ~ .nav-toggle-label {
     transform: translateY(-1rem);
   }
+
+  
 
 
 /*NAV BREAKPOINT STYLING
@@ -398,9 +402,8 @@ MAIN SECTION LAYOUT
 
 .main-item:hover {
     background: var(--clr-accent);
+    border: 2px solid var(--clr-primary);
     transition: all .3s ease-in-out;
-    outline: 2px solid var(--clr-primary);
-    outline-offset: 0;
     transform: scale(1);
 }
 
@@ -477,7 +480,12 @@ MAIN SECTION BREAKPOINT
 CONTACT PAGE START-----------------------------------*/
 
 .contact-main {
-    margin: 5rem 0;
+    margin: 5rem 5rem;
+}
+
+.contact-main h1 {
+    margin: .2rem;
+    background: var(--clr-background-secondary);
 }
 
 .contact-main i {
@@ -496,6 +504,7 @@ CONTACT PAGE START-----------------------------------*/
     .contact-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 10rem 1rem 2rem 1rem ;
     }
 
     .contact-main i {
@@ -505,17 +514,12 @@ CONTACT PAGE START-----------------------------------*/
 
 @media screen and (min-width: 1024px) {
     .contact-main {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
         height: fit-content;
-        margin-top: 15rem;
+        margin: 15rem 15rem 0 15rem;
     
-    }
-
-    .contact-main a {
-        width: 100%;
-
     }
 }
 
