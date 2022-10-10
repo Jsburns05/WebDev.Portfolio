@@ -361,22 +361,24 @@ MAIN SECTION LAYOUT
 
 .card-text-primary {
     position: relative;
-    top: -1rem;
+    top: -1.5rem;
     z-index: 1;
-    font-size: .75em;
-    font-family: var(--ff-special);
-    color: var(--clr-accent);
+    font-size: 1.35rem;
+    font-weight: 300;
+    font-family: var(--ff-primary);
+    color: var(--clr-primary);
     margin: 0;
+    padding: 0 2rem;
 }
 
 .card-text-secondary {
     position: relative;
-    top: 0rem;
-    font-size: .75em;
-    font-family: var(--ff-special);
-    color: var(--clr-background-secondary);
+    top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--ff-primary);
+    color: var(--clr-accent);
     margin: 0;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .main-container {
@@ -401,10 +403,51 @@ MAIN SECTION LAYOUT
 }
 
 .main-item:hover {
-    background: var(--clr-accent);
     border: 2px solid var(--clr-primary);
     transition: all .3s ease-in-out;
     transform: scale(1);
+}
+
+@media screen and (min-width: 768px) {
+    .card-text-primary {
+        font-size: 1.15rem;
+    }
+
+    .card-text-secondary {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .card-text-primary {
+        position: relative;
+        top: -2rem;
+        z-index: 1;
+        font-size: 1.35rem;
+        font-weight: 400;
+        font-family: var(--ff-primary);
+        color: var(--clr-accent);
+        margin: 0;
+        padding: 0 2rem;
+    }
+    
+    .card-text-secondary {
+        position: relative;
+        top: 2rem;
+        font-size: 1.15rem;
+        font-family: var(--ff-primary);
+        color: var(--clr-background-secondary);
+        margin: 0;
+        padding: 0rem 2rem;
+    }
+
+    .main-item:hover {
+        background: var(--clr-accent);
+        border: 2px solid var(--clr-primary);
+        transition: all .3s ease-in-out;
+        transform: scale(1);
+    }
 }
 
 
