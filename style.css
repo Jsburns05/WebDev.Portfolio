@@ -374,11 +374,15 @@ MAIN SECTION LAYOUT
 .card-text-secondary {
     position: relative;
     top: 2rem;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     font-family: var(--ff-primary);
     color: var(--clr-accent);
     margin: 0;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
+}
+
+.card-text-secondary>i {
+    margin: 0 .5rem;
 }
 
 .main-container {
@@ -409,7 +413,7 @@ MAIN SECTION LAYOUT
     }
 
     .card-text-secondary {
-        font-size: 1rem;
+        font-size: 1.9rem;
     }
 }
 
@@ -430,11 +434,10 @@ MAIN SECTION LAYOUT
     .card-text-secondary {
         position: relative;
         top: 2rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-family: var(--ff-primary);
         color: var(--clr-background-secondary);
         margin: 0;
-        padding: 0rem 2rem;
     }
 
     .main-item:hover {
