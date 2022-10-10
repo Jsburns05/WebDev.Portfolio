@@ -393,6 +393,8 @@ MAIN SECTION LAYOUT
     justify-content: center;
     margin-bottom: .5rem;
     border: 2px solid var(--clr-background-primary);
+    outline: solid 2px var(--clr-accent);
+    outline-offset: -.75rem;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
     margin: 0;
@@ -424,7 +426,7 @@ MAIN SECTION LAYOUT
         position: relative;
         top: -2rem;
         z-index: 1;
-        font-size: 1.35rem;
+        font-size: 1.15rem;
         font-weight: 400;
         font-family: var(--ff-primary);
         color: var(--clr-accent);
@@ -435,11 +437,16 @@ MAIN SECTION LAYOUT
     .card-text-secondary {
         position: relative;
         top: 2rem;
-        font-size: 1.15rem;
+        font-size: 1rem;
         font-family: var(--ff-primary);
         color: var(--clr-background-secondary);
         margin: 0;
         padding: 0rem 2rem;
+    }
+
+    .main-item {
+        outline: solid 2px var(--clr-accent);
+        outline-offset: -.75rem;
     }
 
     .main-item:hover {
