@@ -360,9 +360,6 @@ MAIN SECTION LAYOUT
 }
 
 .card-text-primary {
-    position: relative;
-    top: -1.5rem;
-    z-index: 1;
     font-size: 1.35rem;
     font-weight: 300;
     font-family: var(--ff-primary);
@@ -372,8 +369,6 @@ MAIN SECTION LAYOUT
 }
 
 .card-text-secondary {
-    position: relative;
-    top: 2rem;
     font-size: 2.5rem;
     font-family: var(--ff-primary);
     color: var(--clr-accent);
@@ -382,7 +377,7 @@ MAIN SECTION LAYOUT
 }
 
 .card-text-secondary>i {
-    margin: 0 .5rem;
+    margin: 0 1rem;
 }
 
 .main-container {
@@ -394,12 +389,10 @@ MAIN SECTION LAYOUT
 .main-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: .5rem;
-    border: 2px solid var(--clr-primary);
+    justify-content: space-around;
+    margin: .35rem;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: .25rem;
     cursor: pointer;
     width: auto;
     height: 15rem;
@@ -420,24 +413,17 @@ MAIN SECTION LAYOUT
 @media screen and (min-width: 1024px) {
 
     .card-text-primary {
-        position: relative;
-        top: -2rem;
-        z-index: 1;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        margin: 0 1rem;
         font-weight: 400;
         font-family: var(--ff-primary);
         color: var(--clr-accent);
-        margin: 0;
-        padding: 0 2rem;
     }
     
     .card-text-secondary {
-        position: relative;
-        top: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-family: var(--ff-primary);
         color: var(--clr-background-secondary);
-        margin: 0;
     }
 
     .main-item:hover {
@@ -445,6 +431,17 @@ MAIN SECTION LAYOUT
         border: 2px solid var(--clr-primary);
         transition: all .3s ease-in-out;
         transform: scale(1);
+    }
+}
+
+@media screen and (min-width: 1444px) {
+
+    .card-text-primary {
+        font-size: 1.5rem;
+    }
+
+    .card-text-secondary {
+        font-size: 2rem;
     }
 }
 
@@ -521,11 +518,13 @@ MAIN SECTION BREAKPOINT
 CONTACT PAGE START-----------------------------------*/
 
 .contact-main {
-    margin: 5rem 5rem;
+    font-size: 1rem;
+    margin: 5rem;
 }
 
+
 .contact-main h1 {
-    margin: .2rem;
+    margin: .5rem;
     background: var(--clr-background-secondary);
 }
 
@@ -545,7 +544,7 @@ CONTACT PAGE START-----------------------------------*/
     .contact-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 10rem 1rem 2rem 1rem ;
+        margin: 15rem 7rem;
     }
 
     .contact-main i {
@@ -559,7 +558,7 @@ CONTACT PAGE START-----------------------------------*/
         grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
         height: fit-content;
-        margin: 15rem 15rem 0 15rem;
+        margin: 15rem 7rem;
     
     }
 }
