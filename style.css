@@ -392,23 +392,16 @@ MAIN SECTION LAYOUT
     flex-direction: column;
     justify-content: center;
     margin-bottom: .5rem;
-    border: 2px solid var(--clr-background-primary);
-    outline: solid 2px var(--clr-accent);
-    outline-offset: -.75rem;
+    border: 2px solid var(--clr-primary);
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
-    margin: 0;
+    margin: .25rem;
     cursor: pointer;
     width: auto;
     height: 15rem;
     transition: all .3s ease-in-out;
 }
 
-.main-item:hover {
-    border: 2px solid var(--clr-primary);
-    transition: all .3s ease-in-out;
-    transform: scale(1);
-}
 
 @media screen and (min-width: 768px) {
     .card-text-primary {
@@ -442,11 +435,6 @@ MAIN SECTION LAYOUT
         color: var(--clr-background-secondary);
         margin: 0;
         padding: 0rem 2rem;
-    }
-
-    .main-item {
-        outline: solid 2px var(--clr-accent);
-        outline-offset: -.75rem;
     }
 
     .main-item:hover {
