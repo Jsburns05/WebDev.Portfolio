@@ -52,6 +52,8 @@ a {
 
 
 
+
+
 GRID SETUP 
 -----------------------------------------------------*/
 
@@ -60,33 +62,11 @@ GRID SETUP
     flex-direction: column;
 }
 
-@media screen and (min-width:1024px) {
-    html {
-        height: 100%;
-    }
-
-    body {
-        height: 100%;
-    }
-
-    .grid-container {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .about-feature { 
-        flex: 1 1 7em; 
-    }
-
-    .main { 
-        flex: 2 2 7em; 
-    }    
-    
-    
-}
 
 /*-----------------------------------------------------
+
+
+
 
 
 
@@ -275,60 +255,10 @@ nav li:hover {
 
 
 
+ABOUT PAGE START-----------------------------------*/
 
-
-CONTACT PAGE START-----------------------------------*/
-
-.contact-main {
-    font-size: 1.25rem;
-    margin: 5.5rem 2rem 1rem 2rem;
-}
-
-
-.contact-main h1 {
-    margin: .75rem;
-    background: var(--clr-background-secondary);
-}
-
-.contact-main i {
-    margin: 5rem;
-    color: var(--clr-primary);
-}
-
-
-.contact-main h1:hover {
-    background: var(--clr-accent);
-    outline: 2px solid var(--clr-primary);
-    transition: all .25s ease-in-out;
-}
-
-@media screen and (min-width:768px) {
-    .contact-main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 10rem 7rem;
-    }
-
-    .contact-main i {
-        margin: 5rem;
-        padding: 3rem;
-    }
-
-    .contact-main h1 {
-        margin: .35rem;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .contact-main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-evenly;
-        height: fit-content;
-        margin: 10rem 5rem;
-    }
-
-    .contact-main i {
-        padding: 3rem;
-    }
+.about-main {
+    border: 2px solid var(--clr-primary);
+    margin: 7rem;
+    height: 30rem;
 }
