@@ -564,3 +564,20 @@ CONTACT PAGE START-----------------------------------*/
 }
 
 
+/*-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+ABOUT PAGE START-----------------------------------*/
+
+.about-main {
+    border: 2px solid var(--clr-primary);
+    margin: 7rem;
+    height: 30rem;
+}
