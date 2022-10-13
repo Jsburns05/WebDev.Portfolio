@@ -58,36 +58,7 @@ a {
 GRID SETUP 
 -----------------------------------------------------*/
 
-.grid-container {
-    display: flex;
-    flex-direction: column;
-}
 
-@media screen and (min-width:1024px) {
-    html {
-        height: 100%;
-    }
-
-    body {
-        height: 100%;
-    }
-
-    .grid-container {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .about-feature { 
-        flex: 1 1 7em; 
-    }
-
-    .main { 
-        flex: 2 2 7em; 
-    }    
-    
-    
-}
 
 /*-----------------------------------------------------
 
@@ -113,7 +84,7 @@ header {
     color: var(--clr-accent);
     font-family: var(--ff-special);
     font-size: 1.8em;
-    margin: 3rem 0 5rem 0;
+    margin: 7rem 0 5rem 0;
     width: fit-content;
 
 }
@@ -290,7 +261,6 @@ ABOUT FEATURE SECTION START
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7rem;
     width: 100%;
 }
 
@@ -349,14 +319,13 @@ MAIN SECTION LAYOUT
 -----------------------------------------------------*/
 
 .main {
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 .page-titles {
     font-family: var(--ff-special);
     color: var(--clr-accent);
     font-size: 2rem;
-    margin-top: 0;
 }
 
 .card-text-primary {
@@ -364,8 +333,6 @@ MAIN SECTION LAYOUT
     font-weight: 300;
     font-family: var(--ff-primary);
     color: var(--clr-primary);
-    margin: 0;
-    padding: 0 2rem;
 }
 
 .card-text-secondary {
@@ -383,14 +350,12 @@ MAIN SECTION LAYOUT
 .main-container {
     display: flex;
     flex-direction: column;
-    margin: 1rem 1rem;
 }
 
 .main-item {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: .35rem;
     background: var(--clr-background-secondary);
     color: var(--clr-primary);
     cursor: pointer;
