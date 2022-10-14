@@ -31,6 +31,7 @@ ul {
   font-family: var(--ff-accent);
   font-size: 3rem;
   font-weight: 100;
+  display: none;
 }
 
 .nav-links-container {
@@ -45,6 +46,10 @@ ul {
 
 .nav-links-container li {
   margin: 2rem;
+}
+
+main {
+  margin-top: 5rem;
 }
 
 .hero-container {
@@ -63,15 +68,15 @@ ul {
   background: var(--clr-background-secondary);
   z-index: -1;
   border-radius: 5px;
-  padding: 5rem 5rem 1rem;
+  padding: 4rem 5rem 1rem;
   position: relative;
-  top: -5.8rem;
+  top: -4rem;
 }
 
 .profile-name {
   font-family: var(--ff-normal);
   color: var(--clr-text-main);
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -79,6 +84,32 @@ ul {
   font-family: var(--ff-normal);
   color: var(--clr-accent);
   font-size: 2rem;
+}
+
+.projects-container {
+  margin-top: 7rem;
+}
+
+.projects-header {
+  background: var(--clr-background-secondary);
+  color: var(--clr-accent);
+  font-family: var(--ff-normal);
+  border-radius: 30px;
+  margin: 5rem;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.projects-title {
+  color: var(--clr-text-main);
+  font-family: var(--ff-normal);
+  font-size: 2rem;
+}
+
+.project-link img {
+  width: 30rem;
+  border-radius: 5px;
+  margin-bottom: 10rem;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

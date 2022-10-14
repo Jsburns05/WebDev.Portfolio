@@ -29,14 +29,12 @@ ul {
 
 /*heading and nav styling---------------------------------*/
 
-.header-container {
-}
-
 .nav-logo {
     color: var(--clr-accent);
     font-family: var(--ff-accent);
     font-weight: 100;
     font-size: 3rem;
+    display: none;
 }
 
 .nav-links-container {
@@ -55,6 +53,10 @@ ul {
 
 /*hero styling-----------------------------------------------*/
 
+main {
+    margin-top: 5rem;
+}
+
 .hero-container {
     display: flex;
     flex-direction: row;
@@ -71,15 +73,15 @@ ul {
 .name-card {
     border-radius: 5px;
     background: var(--clr-background-secondary);
-    padding: 5rem 5rem 1rem 5rem;
+    padding: 4rem 5rem 1rem 5rem;
     position: relative;
-    top: -5.8rem;
+    top: -4rem;
     z-index: -1;
 }
 
 .profile-name {
     font-family: var(--ff-normal);
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
     color: var(--clr-text-main);
 }
@@ -92,3 +94,28 @@ ul {
 
 /*projects styling----------------------------------------------*/
 
+.projects-container {
+    margin-top: 7rem;
+}
+
+.projects-header {
+    background: var(--clr-background-secondary);
+    border-radius: 30px;
+    color: var(--clr-accent);
+    font-family: var(--ff-normal);
+    font-size: 3rem;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.projects-title {
+    color: var(--clr-text-main);
+    font-family: var(--ff-normal);
+    font-size: 2rem;
+}
+
+.project-link img {
+    width: 30rem;
+    margin-bottom: 10rem;
+    border-radius: 5px;
+}
