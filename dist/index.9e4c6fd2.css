@@ -5,7 +5,7 @@
   --clr-background-primary: #2d2d2d;
   --clr-background-secondary: #484848;
   --clr-text-main: #ffffffa8;
-  --clr-accent: #436ea3;
+  --clr-accent: #6387b3;
 }
 
 html {
@@ -91,29 +91,24 @@ main {
 }
 
 .projects-header {
-  background: var(--clr-background-secondary);
   color: var(--clr-accent);
   font-family: var(--ff-normal);
-  border-radius: 30px;
-  margin: 9rem;
-  padding: 1rem;
   font-size: 3rem;
 }
 
-.projects-title {
-  background: var(--clr-background-secondary);
+.projects-title-container {
   color: var(--clr-text-main);
   font-family: var(--ff-normal);
-  border-radius: 30px;
-  margin: 7rem 7rem 2rem;
-  padding: 1rem;
-  font-size: 2rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: .25rem;
+  font-size: 1.2rem;
 }
 
 .project-link img {
-  width: 30rem;
+  width: 70%;
+  border: 4px solid var(--clr-text-main);
   border-radius: 5px;
-  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

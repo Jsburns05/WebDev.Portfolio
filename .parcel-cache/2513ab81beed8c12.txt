@@ -1,14 +1,7 @@
-4169
-118C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133101822457450184 0
-87C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\svgo\dist\svgo.browser.js133101822458934640 0
-78C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\v8-compile-cache133101822203008157 1
-112C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133101822426532499 0
-88C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\parent-module\package.json133101822170935681 0
-81C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\msgpackr\index.d.ts133101822394107768 0
-52C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\css133101820727041203 1
+4184
 109C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js133101822465068821 0
 82C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\globals\package.json133101822195533988 0
-53C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist133101822829516614 1
+53C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist133102074367557980 1
 108C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@swc\helpers\src\_class_private_method_set.mjs133101822467438290 0
 96C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\htmlnano\lib\modules\minifyJson.js133101822315781848 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\GF.js133101822511630688 0
@@ -29,9 +22,14 @@
 83C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\css-tree\package.json133101822476443253 0
 102C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\posthtml-parser\dist\location-tracker.js133101822194590516 0
 104C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\utils\test\input\config\config.cjs133101822186401171 0
-53C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs133101820542405211 1
+53C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs133102072626826198 1
+103C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\utils\src\generateBuildMetrics.js133101822320513046 0
+98C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\core\test\fixtures\bundle.js133101822392751996 0
+86C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\encode.d.ts133101822361238297 0
+58C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\index.css133102065979384805 0
+94C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\types.js133101822291859672 0
 92C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\source-map\lib\mapping-list.js133101822269318695 0
-59C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\index.html133101820819578390 0
+59C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\index.html133102073024652304 0
 75C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\node-releases133101822213108456 1
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\BZ.js133101822461511127 0
 66C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\svgo133101822460728131 1
@@ -141,6 +139,7 @@
 88C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@lezer\lr\dist\decode.d.ts133101822258530522 0
 98C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\css-tree\lib\syntax\node\Operator.js133101822463247690 0
 112C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\reporter-dev-server\src\templates\500.html133101822195863989 0
+78C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\moshify.img.7f47d150.jpg133102074342680114 0
 74C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\browserslist133101822276674389 1
 96C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\type-fest\source\set-required.d.ts133101822382160860 0
 113C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\transformer-js\parcel-swc.darwin-arm64.node133101822489229262 0
@@ -490,6 +489,12 @@
 94C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\term-size\vendor\macos\.DS_Store133101822178884534 0
 100C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\chrome-trace-event\dist\trace-event.js133101822171785961 0
 75C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\utility-types133101822288292098 1
+118C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133101822457450184 0
+87C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\svgo\dist\svgo.browser.js133101822458934640 0
+78C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\v8-compile-cache133101822203008157 1
+112C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133101822426532499 0
+88C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\parent-module\package.json133101822170935681 0
+81C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\msgpackr\index.d.ts133101822394107768 0
 96C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\node-resolver-core\LICENSE133101822171045814 0
 76C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\weak-lru-cache133101822268957513 1
 108C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\node-gyp-build-optional-packages\build-test.js133101822180410486 0
@@ -2106,9 +2111,6 @@
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\AD.js133101822227724066 0
 95C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\encode-trie.d.ts.map133101822315021851 0
 89C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\encode-trie.js133101822237201308 0
-103C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\utils\src\generateBuildMetrics.js133101822320513046 0
-98C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\core\test\fixtures\bundle.js133101822392751996 0
-86C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\encode.d.ts133101822361238297 0
 84C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\encode.js133101822262415539 0
 98C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\webgpu.js133101822577889096 0
 84C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\entities\lib\generated133101822328846567 1
@@ -2157,6 +2159,7 @@
 113C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\getboundingclientrect.js133101822511550684 0
 87C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\dotenv\lib\env-options.js133101822227724066 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\SL.js133101822567069397 0
+76C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.ce1fb6c5.css.map133102074367527982 0
 74C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\domutils\lib133101822341888266 1
 112C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133101822490426835 0
 85C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\domutils\lib\feeds.d.ts133101822316223414 0
@@ -2662,6 +2665,7 @@
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\GU.js133101822511911587 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\GW.js133101822511931584 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\GY.js133101822511961585 0
+78C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\weather.app.9a20ddfd.jpg133102074342680114 0
 103C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\customevent.js133101822508724696 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\HK.js133101822512191582 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\HT.js133101822512251589 0
@@ -2738,6 +2742,7 @@
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\TD.js133101822567849313 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\regions\TG.js133101822568119311 0
 105C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\core\src\requests\PackageRequest.js133101822462743816 0
+72C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.9e4c6fd2.css133102043415014501 0
 108C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\css-nth-child-of.js133101822498214514 0
 75C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\acorn\LICENSE133101822172827850 0
 111C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\caniuse-lite\data\features\link-rel-preconnect.js133101822563124420 0
@@ -3633,7 +3638,6 @@
 138C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node133101822462304283 0
 93C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\node.js133101822276193527 0
 98C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\node.js.flow133101822171845963 0
-94C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\types.js133101822291859672 0
 94C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\utils.js133101822312509416 0
 99C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\utils.js.flow133101822195843983 0
 106C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\@parcel\source-map\dist\wasm-bindings-web.js133101822313997292 0
@@ -4166,5 +4170,16 @@
 73C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\.bin\terser133101822579460280 0
 77C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\.bin\terser.cmd133101822579460280 0
 77C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\node_modules\.bin\terser.ps1133101822579460280 0
-64C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.html133101822829513080 0
-68C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\css\index-style.css133101820727041203 0
+68C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs\blank page.jpg133102072460818048 0
+65C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs\JB.self.png133053046332009980 0
+69C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs\moshify.img.jpg133098940835823225 0
+69C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\imgs\weather.app.jpg133102069742232928 0
+77C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\blank page.8da0f219.jpg133102074342680114 0
+76C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.9e4c6fd2.css.map133102043415934493 0
+72C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.ce1fb6c5.css133102074367447988 0
+64C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\index.html133102074367447988 0
+74C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\JB.self.c8adc292.png133101987401576334 0
+74C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\JB.self.d88b4433.png133102074342680114 0
+78C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\moshify.img.2e97025f.jpg133102025776940384 0
+82C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\WebDev.Portfolio.3464ddca.js133101987401456330 0
+86C:\Users\Jaybles\Desktop\CODING\WebDev.Portfolio\dist\WebDev.Portfolio.3464ddca.js.map133101987401856330 0
