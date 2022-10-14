@@ -4,7 +4,8 @@
   --ff-accent: "Russo One";
   --clr-background-primary: #2d2d2d;
   --clr-background-secondary: #484848;
-  --clr-text-main: white;
+  --clr-text-main: #ffffffa8;
+  --clr-accent: #436ea3;
 }
 
 html {
@@ -21,8 +22,64 @@ a {
 }
 
 ul {
-  padding: 0;
+  padding-left: 0;
   list-style: none;
+}
+
+.nav-logo {
+  color: var(--clr-accent);
+  font-family: var(--ff-accent);
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.nav-links-container {
+  border: 2px solid var(--clr-text-main);
+  display: none;
+}
+
+.nav-link {
+  color: var(--clr-text-main);
+  font-size: 2rem;
+}
+
+.nav-links-container li {
+  margin: 2rem;
+}
+
+.hero-container {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.self-image img {
+  width: 15rem;
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+}
+
+.name-card {
+  border: 3px solid var(--clr-text-main);
+  background: var(--clr-background-secondary);
+  z-index: -1;
+  border-radius: 5px;
+  padding: 5rem 2rem 2rem;
+  position: relative;
+  top: -5.8rem;
+}
+
+.profile-name {
+  font-family: var(--ff-normal);
+  color: var(--clr-text-main);
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.profile-title {
+  font-family: var(--ff-normal);
+  color: var(--clr-accent);
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

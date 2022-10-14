@@ -5,7 +5,8 @@
     --ff-accent: 'Russo One';
     --clr-background-primary: rgb(45, 45, 45);
     --clr-background-secondary: rgb(72, 72, 72);
-    --clr-text-main: white;
+    --clr-text-main: rgba(255, 255, 255, 0.658);
+    --clr-accent: rgb(67, 110, 163);
 }
 
 html {
@@ -23,8 +24,72 @@ a {
 
 ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
 }
 
 /*heading and nav styling---------------------------------*/
+
+.header-container {
+}
+
+.nav-logo {
+    color: var(--clr-accent);
+    font-family: var(--ff-accent);
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.nav-links-container {
+    border: 2px solid var(--clr-text-main);
+    display: none;
+}
+
+.nav-link {
+    color: var(--clr-text-main);
+    font-size: 2rem;
+}
+
+.nav-links-container li {
+    margin: 2rem;
+}
+
+/*hero styling-----------------------------------------------*/
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.self-image img {
+    width: 15rem;
+    border: 2px solid var(--clr-accent);
+    border-radius: 5px;
+}
+
+.name-card {
+    border: 3px solid var(--clr-text-main);
+    border-radius: 5px;
+    background: var(--clr-background-secondary);
+    padding: 5rem 2rem 2rem 2rem;
+    position: relative;
+    top: -5.8rem;
+    z-index: -1;
+}
+
+.profile-name {
+    font-family: var(--ff-normal);
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--clr-text-main);
+}
+
+.profile-title {
+    font-family: var(--ff-normal);
+    font-size: 2rem;
+    color: var(--clr-accent);
+}
+
+/*projects styling----------------------------------------------*/
 
