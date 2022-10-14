@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Russo+One&display=swap";
+:root {
+  --ff-normal: "Comfortaa";
+  --ff-accent: "Russo One";
+  --clr-background-primary: #2d2d2d;
+  --clr-background-secondary: #484848;
+  --clr-text-main: ;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
