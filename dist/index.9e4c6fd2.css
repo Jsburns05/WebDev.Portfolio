@@ -4,11 +4,25 @@
   --ff-accent: "Russo One";
   --clr-background-primary: #2d2d2d;
   --clr-background-secondary: #484848;
-  --clr-text-main: ;
+  --clr-text-main: white;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  background: var(--clr-background-primary);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
