@@ -105,6 +105,10 @@ main {
   font-size: 1.2rem;
 }
 
+.projects-specs {
+  color: var(--clr-accent);
+}
+
 .project-link img {
   width: 70%;
   border: 4px solid var(--clr-text-main);
