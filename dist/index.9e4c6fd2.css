@@ -95,21 +95,25 @@ main {
   color: var(--clr-accent);
   font-family: var(--ff-normal);
   border-radius: 30px;
-  margin: 5rem;
+  margin: 9rem;
   padding: 1rem;
   font-size: 3rem;
 }
 
 .projects-title {
+  background: var(--clr-background-secondary);
   color: var(--clr-text-main);
   font-family: var(--ff-normal);
+  border-radius: 30px;
+  margin: 7rem 7rem 2rem;
+  padding: 1rem;
   font-size: 2rem;
 }
 
 .project-link img {
   width: 30rem;
   border-radius: 5px;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -6,7 +6,7 @@
     --clr-background-primary: rgb(45, 45, 45);
     --clr-background-secondary: rgb(72, 72, 72);
     --clr-text-main: rgba(255, 255, 255, 0.658);
-    --clr-accent: rgb(67, 110, 163);
+    --clr-accent: rgb(99, 135, 179);
 }
 
 html {
@@ -104,18 +104,22 @@ main {
     color: var(--clr-accent);
     font-family: var(--ff-normal);
     font-size: 3rem;
-    margin: 5rem;
+    margin: 9rem;
     padding: 1rem;
 }
 
 .projects-title {
+    background: var(--clr-background-secondary);
+    border-radius: 30px;
     color: var(--clr-text-main);
     font-family: var(--ff-normal);
     font-size: 2rem;
+    margin: 7rem 7rem 2rem 7rem;
+    padding: 1rem;
 }
 
 .project-link img {
     width: 30rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     border-radius: 5px;
 }
