@@ -55,16 +55,15 @@ ul {
 
 .self-image img {
   width: 15rem;
-  border: 2px solid var(--clr-accent);
+  border: 3px solid var(--clr-text-main);
   border-radius: 5px;
 }
 
 .name-card {
-  border: 3px solid var(--clr-text-main);
   background: var(--clr-background-secondary);
   z-index: -1;
   border-radius: 5px;
-  padding: 5rem 2rem 2rem;
+  padding: 5rem 5rem 1rem;
   position: relative;
   top: -5.8rem;
 }
