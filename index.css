@@ -101,7 +101,7 @@ main {
 .projects-header {
     color: var(--clr-accent);
     font-family: var(--ff-normal);
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .projects-title-container {
