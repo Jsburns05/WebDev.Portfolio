@@ -87,20 +87,25 @@ main {
 }
 
 .projects-container {
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 
 .projects-header {
-  color: var(--clr-accent);
+  background-color: var(--clr-accent);
+  color: var(--clr-text-main);
   font-family: var(--ff-normal);
-  font-size: 3.5rem;
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+  margin: 0 7rem;
+  padding: 1rem;
+  font-size: 4rem;
 }
 
 .projects-title-container {
   color: var(--clr-text-main);
   font-family: var(--ff-normal);
   border-radius: 5px;
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: .25rem;
   font-size: 1.2rem;
 }
@@ -111,7 +116,7 @@ main {
 
 .project-link img {
   width: 70%;
-  border: 4px solid var(--clr-text-main);
+  border: 4px solid var(--clr-accent);
   border-radius: 5px;
 }
 
