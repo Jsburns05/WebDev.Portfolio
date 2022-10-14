@@ -99,27 +99,22 @@ main {
 }
 
 .projects-header {
-    background: var(--clr-background-secondary);
-    border-radius: 30px;
     color: var(--clr-accent);
     font-family: var(--ff-normal);
     font-size: 3rem;
-    margin: 9rem;
-    padding: 1rem;
 }
 
-.projects-title {
-    background: var(--clr-background-secondary);
-    border-radius: 30px;
+.projects-title-container {
+    border-radius: 5px;
     color: var(--clr-text-main);
     font-family: var(--ff-normal);
-    font-size: 2rem;
-    margin: 7rem 7rem 2rem 7rem;
-    padding: 1rem;
+    font-size: 1.2rem;
+    padding: .25rem;
+    margin-top: 2rem;
 }
 
 .project-link img {
-    width: 30rem;
-    margin-bottom: 5rem;
+    width: 70%;
+    border: 4px solid var(--clr-text-main);
     border-radius: 5px;
 }
