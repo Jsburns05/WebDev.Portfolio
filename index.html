@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Burns</title>
     <link rel="stylesheet" href="/index.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -13,18 +15,19 @@
 
     <header class="header-container">
         <nav class="nav-container">
+            <div class="topnav">
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                  <a href="#news">News</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
             <h1 class="nav-logo">/jb></h1>
-            <ul class="nav-links-container">
-                <li>
-                    <a href="#" class="nav-link">/home</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">/contact</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">/about</a>
-                </li>
-            </ul>
         </nav>
     </header>
     <main>
@@ -90,5 +93,6 @@
         </div>
     </main>
     <script src="https://kit.fontawesome.com/d04f7e3426.js" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
 </body>
 </html>
