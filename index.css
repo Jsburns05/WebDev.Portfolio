@@ -42,6 +42,8 @@ ul {
 }
 
 .navLink {
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     background: var(--clr-background-secondary);
     color: var(--clr-text-main);
@@ -61,6 +63,10 @@ ul {
     .nav-container {
         display: flex;
         justify-content: space-between;
+    }
+
+    .nav-logo {
+        margin: 1rem 1rem;
     }
     
     
@@ -138,6 +144,12 @@ main {
     margin: 0;
 }
 
+.project-title {
+    color: var(--clr-text-main);
+    font-family: var(--ff-normal);
+    margin-top: 1.5rem;
+
+}
 
 .project-link {
     margin-bottom: 1rem;
@@ -146,7 +158,7 @@ main {
 
 
 .project-link img {
-    max-width: 80%;
+    max-width: 90%;
     margin-bottom: 1rem;
     border: 3px solid var(--clr-accent);
     border-radius: 5px;
@@ -184,5 +196,9 @@ main {
     .project-link a {
         width: 100%;
         height: 100%;
+    }
+
+    .project-link img {
+        width: 40em;
     }
 }
