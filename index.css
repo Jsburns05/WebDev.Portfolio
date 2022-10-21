@@ -20,6 +20,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -34,6 +35,13 @@ ul {
     font-family: var(--ff-accent);
     font-weight: 100;
     font-size: 3rem;
+    margin: 1rem 1rem;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navLinkContainer {
@@ -60,11 +68,7 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
+    
     .nav-logo {
         margin: 1rem 1rem;
     }
@@ -79,8 +83,6 @@ ul {
 main {
     margin-top: 5rem;
 }
-
-
 
 
 .hero-container {
@@ -126,8 +128,17 @@ main {
     }
 
     .hero-container {
-        margin-top: 12rem;
+        margin-top: 20rem;
         width: 100%;
+    }
+
+    .self-image img {
+        width: 20rem;
+    }
+
+    .name-card {
+        width: 22rem;
+        height: 17rem;
     }
 }
 
@@ -158,7 +169,7 @@ main {
 
 
 .project-link img {
-    max-width: 90%;
+    max-width: 85%;
     margin-bottom: 1rem;
     border: 3px solid var(--clr-accent);
     border-radius: 5px;
