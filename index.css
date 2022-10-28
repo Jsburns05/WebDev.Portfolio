@@ -143,6 +143,20 @@ main {
     }
 }
 
+/*contact styling-----------------------------------------------*/
+
+
+
+.contact-link {
+    color: var(--clr-text-main);
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+.contact-link:hover {
+    color: var(--clr-accent);
+    transition: .3s all ease-in-out;
+}
 
 /*projects styling----------------------------------------------*/
 
@@ -166,8 +180,8 @@ main {
 
 .project-description:hover {
     color: var(--clr-accent);
-    transform: scale(1.2);
-    transition: .3s ease-in-out;
+    transform: scale(1.5);
+    transition: .3s all ease-in-out;
 }
 
 .project-title {
