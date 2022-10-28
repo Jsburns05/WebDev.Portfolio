@@ -149,7 +149,7 @@ main {
 .projects-container {
     background: var(--clr-background-secondary);
     border-radius: 5px;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 3rem 1rem;
     margin: 2rem;
 }
 
@@ -164,18 +164,24 @@ main {
     margin: 0;
 }
 
+.project-description:hover {
+    color: var(--clr-accent);
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
 .project-title {
     color: var(--clr-text-main);
     font-family: var(--ff-normal);
     margin-top: 1.5rem;
-
+    
 }
+
 
 .project-link {
     margin-bottom: 1rem;
     
 }
-
 
 .project-link img {
     max-width: 85%;
@@ -208,6 +214,7 @@ main {
     }
 
     .projects-title-main {
+        font-size: 1.8rem;
         grid-column: 1 / 3;
     }
 
