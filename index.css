@@ -221,3 +221,18 @@ main {
         width: 30em;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .self-image img {
+        width: 20rem;
+    }
+
+    .name-card {
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .name-card h1 {
+        margin-bottom: 5rem;
+    }
+}
