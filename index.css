@@ -28,7 +28,7 @@ ul {
     padding-left: 0;
 }
 
-/*heading and nav styling---------------------------------*/
+/*heading contact & nav styling---------------------------------*/
 
 .nav-logo {
     color: var(--clr-accent);
@@ -67,14 +67,26 @@ ul {
     transition: .2s ease-in-out;
 }
 
+.contact-container {
+    padding-top: 1.7rem;
+}
+
+.contact-link {
+    color: var(--clr-text-main);
+    font-size: 2.5rem;
+    margin: 1.5rem;
+}
+
+.contact-link:hover {
+    color: var(--clr-accent);
+    transition: .3s all ease-in-out;
+}
+
 @media screen and (min-width: 768px) {
     
     .nav-logo {
         margin: 1rem 1rem;
     }
-    
-    
-
 }
 
 
@@ -89,7 +101,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 10rem;
     
 }
 
@@ -143,20 +154,6 @@ main {
     }
 }
 
-/*contact styling-----------------------------------------------*/
-
-
-
-.contact-link {
-    color: var(--clr-text-main);
-    font-size: 3rem;
-    margin: 1.5rem;
-}
-
-.contact-link:hover {
-    color: var(--clr-accent);
-    transition: .3s all ease-in-out;
-}
 
 /*projects styling----------------------------------------------*/
 
