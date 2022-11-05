@@ -116,7 +116,7 @@ ul {
 .feature-description-container {
     background: var(--clr-background-secondary);
     border-radius: 5px;
-    padding: 7rem 3rem 3rem 3rem;
+    padding: 7rem 5rem 3rem 5rem;
     margin: 2rem;
     position: relative;
     top: -7rem;
