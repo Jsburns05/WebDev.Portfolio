@@ -102,7 +102,7 @@ ul {
 
 .heading-text {
     color: var(--clr-accent);
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: var(--ff-normal);
     margin-bottom: 5rem;
 }
@@ -116,16 +116,16 @@ ul {
 .feature-description-container {
     background: var(--clr-background-secondary);
     border-radius: 5px;
-    padding: 3rem 3rem;
+    padding: 7rem 3rem 3rem 3rem;
     margin: 2rem;
     position: relative;
-    top: -5rem;
+    top: -7rem;
     z-index: -1;
 }
 
 .feature-description{
     font-family: var(--ff-normal);
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--clr-text-main);
 
 }
@@ -138,8 +138,9 @@ ul {
     }
 
     .feature-description-container {
-        padding-top: 5rem;
+        padding-top: 7rem;
         margin: 0 5rem;
+        top: -5rem;
     }
 
     .feature-description {
@@ -155,7 +156,7 @@ ul {
     }
 
     .feature-description-container {
-        padding-top: 5rem;
-        margin: 0 5rem;
+        padding-top: 7rem;
+        margin: 0 15rem;
     }
 }
