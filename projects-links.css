@@ -127,8 +127,8 @@ ul {
     font-family: var(--ff-normal);
     font-size: 2rem;
     color: var(--clr-text-main);
-    letter-spacing: .2rem;
-    line-height: 3rem;
+    letter-spacing: .1rem;
+    line-height: 4rem;
 }
 
 @media screen and (min-width: 768px) {
