@@ -183,8 +183,8 @@ main {
 
 
 .project-title {
-    background: var(--clr-background-primary);
-    color: var(--clr-text-main);
+    background: var(--clr-accent);
+    color: var(--clr-background-primary);
     font-family: var(--ff-normal);
     margin: 1.5rem 7rem;
     padding: 1rem;
@@ -193,10 +193,10 @@ main {
 }
 
 .project-title:hover {
-    transform: scale(1.05);
+    background: var(--clr-background-primary);
+    color: var(--clr-text-main);
     transition: .4s ease-in-out;
-    background: var(--clr-accent);
-    color: var(--clr-background-primary);
+    outline: 2px solid var(--clr-text-main);
 }
 
 
