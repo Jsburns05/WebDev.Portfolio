@@ -54,7 +54,7 @@ ul {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    background: var(--clr-background-secondary);
+    background: var(--clr-accent);
     color: var(--clr-text-main);
     font-family: var(--ff-normal);
     font-size: 2rem;
@@ -64,7 +64,8 @@ ul {
 }
 
 .navLink:hover {
-    background: var(--clr-accent);
+    background: var(--clr-background-primary);
+    outline: 2px solid var(--clr-text-main);
     transition: .2s ease-in-out;
 }
 
@@ -76,10 +77,16 @@ ul {
     color: var(--clr-text-main);
     font-size: 2.5rem;
     margin: .5rem;
+    padding: .5rem;
 }
 
 .contact-link:hover {
     color: var(--clr-accent);
+    transition: .3s all ease-in-out;
+}
+
+.contact-link i:hover {
+    transform: scale(1.5);
     transition: .3s all ease-in-out;
 }
 
@@ -184,7 +191,7 @@ main {
 
 .project-title {
     background: var(--clr-accent);
-    color: var(--clr-background-primary);
+    color: var(--clr-text-main);
     font-family: var(--ff-normal);
     margin: 1.5rem 7rem;
     padding: 1rem;
