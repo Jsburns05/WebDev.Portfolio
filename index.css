@@ -124,7 +124,7 @@ main {
 }
 
 .name-card {
-    width: 33em;
+    width: 20em;
     border-radius: 5px;
     background: var(--clr-background-secondary);
     padding: 4rem 5rem 1rem 5rem;
@@ -189,6 +189,11 @@ main {
     margin: 0;
 }
 
+.project-title {
+    font-family: var(--ff-normal);
+    font-weight: 100;
+    color: white;
+}    
 
 .project-link {
     margin-bottom: 1rem;
@@ -231,7 +236,7 @@ main {
     }
 
     .project-link img {
-        margin: 0;
+        margin: 1em;
     }
 
     .project-title {
@@ -261,7 +266,7 @@ main {
 
     .name-card {
         width: 25rem;
-        height: 20rem;
+        height: 17rem;
     }
 
     .name-card h1 {
