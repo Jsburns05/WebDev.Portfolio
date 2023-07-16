@@ -207,9 +207,16 @@ main {
 }
 
 .project-link img:hover {
-    opacity: 0.3;
     transform: scale(1.05);
     transition: .4s ease-in-out;
+    border: 5px solid white;
+}
+
+.about-paragraph {
+    font-family: var(--ff-normal);
+    color: white;
+    line-height: 150%;
+    font-weight: 100;
 }
 
 @media screen and (min-width: 768px) {
